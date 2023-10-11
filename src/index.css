@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+margin-left: 20px;
+margin-top: 18px;
+}
+.navbar-nav{
+  margin-right: 20px;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 5px 15px ;
+  margin: 10px; 
+}
+.navbar-toggler .navbar-toggler-icon{
+  color: white;
+} 
+.header{
+  width: 100%;
+} 
+.img{
+  background-image: url("./images/bg-header.jpg");
+  background-size: cover;
+}
+.sec2 {
+  background: none;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+.sec3{
+  /* filter: blur(6px); */
+  backdrop-filter: blur(30px);
+  /* background-color: rgba(0, 0, 0, 0.6); */
+}
+.button {
+  background: #ffc000;
+  border-radius: 6px;
+  padding: 10px;
+  color: darkblue;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.sec4 {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+  padding: 30px;
+}
+@media (max-width: 993px)
+{.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    background-color:mediumseagreen ;
+    font-size: small;
+}
+}
